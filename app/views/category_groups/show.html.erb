@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @category_group %>
+
+<div>
+  <%= link_to "Edit this category group", edit_category_group_path(@category_group) %> |
+  <%= link_to "Back to category groups", category_groups_path %>
+
+  <%= button_to "Destroy this category group", @category_group, method: :delete %>
+</div>
