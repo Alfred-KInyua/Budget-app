@@ -5,8 +5,8 @@ RSpec.describe Category, type: :request do
   let(:user) do
     User.create(
       name: 'Alfred',
-      email: 'alfred@gmail.com',
-      password: '0000'
+      email: 'alf@gmail.com',
+      password: '1234567'
     )
   end
 
