@@ -1,4 +1,4 @@
-<div class="splash">
+<div class="splash bg-success text-light">
   <% if user_signed_in? %>
     <h1>Alfreds Kinyua Budget App</h1>
     <p>Let our app make your life easy  </p>
@@ -8,8 +8,8 @@
   <% else %>
     <h1>Alfreds Kinyua Budget App</h1>
     <p>Let our app make your life easy  </p>
-    <%= link_to "Sign Up", new_user_registration_path, class:"btn-splash"%>
-    <%= link_to "Log In", new_user_session_path, class:"btn-splash" %>
+    <p><%= link_to "Sign Up", new_user_registration_path, class:"btn-splash"%>
+    <%= link_to "Log In", new_user_session_path, class:"btn-splash" %></p>
   <% end %>
 </div>
 
