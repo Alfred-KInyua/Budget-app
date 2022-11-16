@@ -1,6 +1,9 @@
 class Category < ApplicationRecord
-  has_many :categorygroups, dependent: :destroy
-  has_many :groups, through: :categorygroups
-  validates :amount, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
-  validates :name, presence: true
+  belongs_to :user
+  has_many :expense_categories, foreign_key: 'category_id', dependent: :destroy
+  has_many :expenses, through: :expense_categories, foreign_key: 'category_id', dependent: :destroy
+
+  validates :name, presence: true, length: { in: 3..50 }
+  validates :icon, presence: true
+  validates :description, presence: true, length: { in: 3..100 }
 end
