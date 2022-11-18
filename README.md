@@ -2,13 +2,11 @@
 
 > In this project, I created a budget calculator website, which has categories of budgets in which you can enter transaction cost for each sub-group in other to get the total budget price in that particular budget category.
 
-## Link to video
+### Live demo
 
-- [Explain](https://www.loom.com/share/c0e9967ce7c84c6ca09f8257ad4f1dc6)
+[Live Demo Link](https://budget-app-kinyua.herokuapp.com/)
 
-## Link to App
-
-- [Budget-app]()
+[Loom video]()
 
 ## Built With
 
