@@ -4,7 +4,7 @@
 
 ## Link to video
 
-- [Explain]()
+- [Explain](https://www.loom.com/share/c0e9967ce7c84c6ca09f8257ad4f1dc6)
 
 ## Link to App
 
