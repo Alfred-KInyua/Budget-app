@@ -1,24 +1,88 @@
-# README
+# Rails project: Budget App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> In this project, I created a budget calculator website, which has categories of budgets in which you can enter transaction cost for each sub-group in other to get the total budget price in that particular budget category.
 
-Things you may want to cover:
+## Link to video
 
-* Ruby version
+- [Explain]()
 
-* System dependencies
+## Link to App
 
-* Configuration
+- [Budget-app]()
 
-* Database creation
+## Built With
 
-* Database initialization
+```bash
+- Rails
+```
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+To get a local copy up and running follow these simple example steps.
 
-* Deployment instructions
+### Prerequisites
 
-* ...
+- Ruby and gem bundle
+- Rails
+- Web browser (Google chrome)
+- Code Editor (VSCode)
+
+### Development (Running locally)
+
+- git clone the project
+
+```
+git clone https://github.com/Alfred-KInyua/Budget-app.git
+```
+
+```
+cd Budget-App
+```
+
+- To run the app
+
+```
+bundle install
+```
+
+```
+rails s
+```
+
+- Paste in web your broswer
+
+```
+ http://localhost:3000/
+```
+
+- To test app
+
+```
+ rails exec rspec -f d
+```
+
+👤 **Alfred Kinyua**
+
+- GitHub: [@Alfred-KInyua](https://github.com/Alfred-KInyua)
+- Twitter: [@alfkinyua](https://www.twitter.com/alfkinyua)
+- LinkedIn: [@alfred-kinyua](https://www.linkedin.com/in/alfred-kinyua/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Alfred-KInyua/BUdget-app/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Ruby on rails Community
+- [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
+- [Flaticon](https://www.flaticon.com/free-icons/transport)
+
+## 📝 License
+
+[This project is [MIT](https://github.com/Alfred-KInyua/Budget-app/blob/dev/LICENSE) licensed.
