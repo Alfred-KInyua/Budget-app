@@ -4,8 +4,8 @@ RSpec.describe Category, type: :request do
   include Devise::Test::IntegrationHelpers
   let(:user) do
     User.create(
-      name: 'John',
-      email: 'john1@gmail.com',
+      name: 'Alfred',
+      email: 'alf@gmail.com',
       password: '1234567'
     )
   end
