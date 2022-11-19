@@ -4,7 +4,7 @@
 
 ### Live demo
 
-[Demo Link](https://budget-app-kinyua.herokuapp.com/)
+[Demo Link](https://bondo-kisumu.herokuapp.com/)
 
 [Loom video](https://www.loom.com/share/c0e9967ce7c84c6ca09f8257ad4f1dc6)
 
