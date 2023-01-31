@@ -1,15 +1,15 @@
-<div class="splash">
+<div class="splash bg-success text-light">
   <% if user_signed_in? %>
-    <h1>Budget App</h1>
-    <p>Welcome to your friendly budget app</p>
+    <h1>Alfreds Kinyua Budget App</h1>
+    <p>Let our app make your life easy  </p>
     <p>Here you can create categories and add transactions to them</p>
     <p>Click on the button below to get started</p>
     <%= link_to "Categories", categories_path, class:"btn-splash"%>
   <% else %>
-    <h1>Budget App</h1>
-    <p>Welcome to your friendly budget app</p>
-    <%= link_to "Sign Up", new_user_registration_path, class:"btn-splash"%>
-    <%= link_to "Log In", new_user_session_path, class:"btn-splash" %>
+    <h1>Alfreds Kinyua Budget App</h1>
+    <p>Let our app make your life easy  </p>
+    <p><%= link_to "Sign Up", new_user_registration_path, class:"btn-splash"%>
+    <%= link_to "Log In", new_user_session_path, class:"btn-splash" %></p>
   <% end %>
 </div>
 
